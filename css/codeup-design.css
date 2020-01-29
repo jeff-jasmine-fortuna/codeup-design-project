@@ -1,0 +1,42 @@
+
+#title {
+	font-family: 'Abel', sans-serif;
+	font-size: 40px;
+}
+
+#info {
+	font-family: 'Anton', sans-serif;
+
+}
+
+.circle {
+	font-family: 'Anton', sans-serif;
+	border: 10px white solid;
+	line-height: 80px;
+	height: 105px;
+	width: 105px;
+
+}
+#design {
+	background: #E6563B;
+}
+
+#develop {
+	background: #EB9D3A;
+}
+
+#support {
+	background: #7CB06C;
+}
+
+#host {
+	background: #00ABA9;
+}
+
+#selected-work {
+	font-family: 'Abel', sans-serif;
+}
+
+.card-text {
+	font-family: 'Abel', sans-serif;
+}

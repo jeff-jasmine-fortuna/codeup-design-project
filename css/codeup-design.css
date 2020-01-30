@@ -40,3 +40,15 @@
 .card-text {
 	font-family: 'Abel', sans-serif;
 }
+
+/*.small-circle {*/
+/*	height: 18px;*/
+/*	width: 18px;*/
+/*}*/
+
+.btn {
+	background: blue;
+	height: 18px;
+	width: 18px;
+	line-height: 5px;
+}

@@ -84,13 +84,14 @@
 }
 
 
-.smcircle {
+.badge {
 	background-color: #00ABA9;
 	width: 18px;
 	height: 18px;
-
+	border-radius: 50%;
 }
 
 .featured-project {
 	font-size: 12px;
 }
+

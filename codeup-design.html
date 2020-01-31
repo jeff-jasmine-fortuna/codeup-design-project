@@ -27,7 +27,19 @@
 	</div>
 	<!--		this will be where the logo is-->
 	<div class="row" id="white-stripe">
-		<div class="col-12 d-flex justify-content-center align-self-center">
+		<div class="col-12 d-block d-sm-none d-flex justify-content-center align-self-center">
+			<div id="logo">
+				<img src="img/logo.png"
+				     width="105px" height="105px"
+				     alt="logo">
+			</div>
+		</div>
+	</div>
+
+
+<!--	lg logo and stripe-->
+	<div class="row" id="white-stripe">
+		<div class="col-12 d-flex d-none d-lg-block d-sm- d-xl-block justify-content-center align-self-center">
 			<div id="logo">
 				<img src="img/logo.png"
 				     width="105px" height="105px"
@@ -38,14 +50,14 @@
 
 
 	<div class="row" id="title">
-		<div class="col-12 col-sm-12 text-center">
+		<div class="col-12 d-block d-sm-none col-sm-12 text-center">
 			codeup design
 		</div>
 	</div>
 
 
 	<!--		nav-->
-	<ul class="nav justify-content-center">
+	<ul class="nav d-block d-sm-none justify-content-center">
 		<li class="nav-item">
 			<a class="nav-link"
 			   href="#">SERVICES</a>
@@ -69,17 +81,18 @@
 		     id="info">
 			VISUAL DESIGN & WEB DEVELOPMENT
 			<br>
-			<div>
+			<div id="utah">
 				FROM PARK CITY, UTAH
 			</div>
 		</div>
 		<br>
+	</div>
 
-		<!--		circles-->
+		<!--		circles for mobile-->
 		<div class="container px-5">
 			<div class="row mx-n5">
 				<!--			<div class="col-1"></div>-->
-				<div class="col-6 col-sm-3 text-center py-2 pl-4">
+				<div class="col-6 col-sm-3 d-block d-sm-none text-center py-2 pl-4">
 					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center"
 					     id="design">
 						DESIGN
@@ -88,7 +101,7 @@
 
 				<!--			<div class="col-1"></div>-->
 
-				<div class="col-6 col-sm-3 text-center py-2 pr-4 pl-0">
+				<div class="col-6 col-sm-3 d-block d-sm-none text-center py-2 pr-4 pl-0">
 					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center"
 					     id="develop">
 						DEVELOP
@@ -97,7 +110,7 @@
 
 				<!--			<div class="col-1"></div>-->
 
-				<div class="col-6 col-sm-3 text-center py-2 pl-4">
+				<div class="col-6 col-sm-3 d-block d-sm-none text-center py-2 pl-4">
 					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center"
 					     id="support">
 						SUPPORT
@@ -106,7 +119,7 @@
 
 				<!--			<div class="col-1"></div>-->
 
-				<div class="col-6 col-sm-3 text-center py-2 pr-4 pl-0">
+				<div class="col-6 col-sm-3 d-block d-sm-none text-center py-2 pr-4 pl-0">
 					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center"
 					     id="host">
 						HOST
@@ -116,6 +129,27 @@
 				<!--				<div class="col-1"></div>-->
 			</div>
 		</div>
+
+
+<!--		circles for lg and xl-->
+		<div class="row">
+			<div class="lg-circle-holder d-flex justify-content-center col-lg-12">
+				<div class="lg-circle mr-4 d-none d-lg-block d-xl-block">
+					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center" id="lg-design">DESIGN</div>
+				</div>
+				<div class="lg-circle mr-4 d-none d-lg-block d-xl-block">
+					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center" id="lg-develop">DEVELOP</div>
+				</div>
+				<div class="lg-circle mr-4 d-none d-lg-block d-xl-block">
+					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center" id="lg-support">SUPPORT</div>
+				</div>
+				<div class="lg-circle mr-4 d-none d-lg-block d-xl-block">
+					<div class="circle rounded-circle mx-auto d-flex align-items-center justify-content-center" id="lg-host">HOST</div>
+				</div>
+			</div>
+		</div>
+
+
 		<hr>
 		<br>
 		<br>
@@ -128,45 +162,106 @@
 		</div>
 		<br>
 
-
-		<!--		picture-->
-		<div class="card d-none d-sm-block col-sm-6"
-		     style="width: 18rem;">
+<!--cards-->
+	<div class="row">
+	<div class="card-container d-flex">
+		<div class="card d-none d-sm-block col-sm-6 col-lg-4">
 			<img src="img/apple-ipad.jpg"
 			     class="card-img-top"
 			     alt="apple ipad">
-			<div class="card-body">
+			<div class="card-body d-flex">
 				<p class="card-text">FEATURED
-					PROJECT</p>
+					PROJECT </p>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd1">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd2">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="sms">
+					S
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smh">
+					H
+				</div>
 			</div>
 		</div>
-		<div class="card col-sm-6 d-none d-sm-block"
-		     style="width: 18rem;">
+
+
+
+		<div class="card col-sm-6 d-none d-sm-block col-lg-4">
 			<img src="img/macbook.jpg"
 			     class="card-img-top" alt="...">
-			<div class="card-body">
+			<div class="card-body d-flex">
 				<p class="card-text">FEATURED
 					PROJECT</p>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd1">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd2">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="sms">
+					S
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smh">
+					H
+				</div>
 			</div>
+
 		</div>
-		<div class="card col-sm-6 d-none d-sm-block"
-		     style="width: 18rem;">
+	</div>
+	<div class="card-container-2">
+		<div class="row">
+		<div class="card col-sm-6 d-none d-sm-block col-lg-4">
 			<img src="img/man.jpg"
 			     class="card-img-top" alt="...">
-			<div class="card-body">
+			<div class="card-body d-flex">
 				<p class="card-text">FEATURED
 					PROJECT</p>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd1">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd2">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="sms">
+					S
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smh">
+					H
+				</div>
 			</div>
 		</div>
-		<div class="card col-sm-6 d-none d-sm-block"
-		     style="width: 18rem;">
+		<div class="card col-sm-6 d-none d-sm-block col-lg-4">
 			<img src="img/security.jpg"
 			     class="card-img-top" alt="...">
-			<div class="card-body">
+			<div class="card-body d-flex">
 				<p class="card-text">FEATURED
 					PROJECT</p>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd1">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd2">
+					D
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="sms">
+					S
+				</div>
+				<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smh">
+					H
+				</div>
 			</div>
 		</div>
+
+		</div>
+		</div>
+	</div>
+
+	</div>
+
+
+
 		<div class="row">
 
 			<!--			mobile only-->
@@ -182,18 +277,17 @@
 
 
 
-	</div>
+
 
 
 	<!--footer-->
 	<div class="row">
-
-		<div class="col-6 featured-project">
+		<div class="col-6 featured-project d-block d-sm-none">
 			FEATURED PROJECT
 		</div>
 
-
-		<div class="col-6 d-flex">
+<!--small circles-->
+		<div class="col-6 d-flex d-block d-sm-none">
 			<div class="smcircle d-flex justify-content-center align-items-center mr-2" id="smd1">
 				D
 			</div>
@@ -210,64 +304,9 @@
 
 	</div>
 
-
-	<br>
-	<br>
-
-	<!--				<div>-->
-	<!--					<div class="smcircle rounded-circle">-->
-	<!--						D-->
-	<!--					</div>-->
-	<!--				</div>-->
-
-	<!--				<button class="btn btn-primary rounded-circle" type="submit">D</button>-->
-	<!--				<button class="btn btn-primary rounded-circle" type="submit">S</button>-->
-	<!--				<button class="btn btn-primary rounded-circle" type="submit">H</button>-->
-
-	<!--						<div class="col-6 col-sm-3 text-center">-->
-	<!--							<div class="rounded-circle small-c" id="d1">-->
-	<!--							D-->
-	<!--							</div>-->
-	<!--						</div>-->
-
-	<!--&lt;!&ndash;				<div class="col-6 col-sm-3 text-center">&ndash;&gt;-->
-	<!--					<div class="rounded-circle small-c" id="d2">-->
-	<!--						D-->
-	<!--					</div>-->
-	<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-
-	<!--&lt;!&ndash;				<div class="col-6 col-sm-3 text-center">&ndash;&gt;-->
-	<!--					<div class="rounded-circle small-c" id="s">-->
-	<!--						S-->
-	<!--					</div>-->
-	<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-
-	<!--&lt;!&ndash;				<div class="col-6 col-sm-3 text-center">&ndash;&gt;-->
-	<!--					<div class="rounded-circle small-c" id="h">-->
-	<!--						H-->
-	<!--					</div>-->
-	<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-
-	<!--&lt;!&ndash;					<li>D</li>&ndash;&gt;-->
-	<!--&lt;!&ndash;					<li>S</li>&ndash;&gt;-->
-	<!--&lt;!&ndash;					<li>H</li>&ndash;&gt;-->
-
-
-	<!--			</div>-->
-
-
-	<!--			<div class="card" style="width: 18rem;">-->
-	<!--				<img src="img/man.jpg" class="card-img-top" alt="...">-->
-	<!--				<div class="card-body">-->
-	<!--					<p class="card-text">FEATURED PROJECT</p>-->
-	<!--				</div>-->
-	<!--				<div class="d-flex align-items-center">-->
-	<!--					<span class="badge">D</span>-->
-	<!--				</div>-->
-	<!--			</div>-->
-
-
 </div>
+
+
 
 
 <!-- Optional JavaScript -->

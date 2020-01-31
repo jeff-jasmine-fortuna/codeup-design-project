@@ -9,6 +9,9 @@
 	font-size: 48px;
 
 }
+#utah {
+	font-size: 25px;
+}
 
 .nav-item {
 	margin-left: -17px;
@@ -23,19 +26,19 @@
 	width: 105px;
 
 }
-#design {
+#design, #lg-design {
 	background: #E6563B;
 }
 
-#develop {
+#develop, #lg-develop {
 	background: #EB9D3A;
 }
 
-#support {
+#support, #lg-support {
 	background: #7CB06C;
 }
 
-#host {
+#host, #lg-host {
 	background: #00ABA9;
 }
 
@@ -47,11 +50,12 @@
 	font-family: 'Abel', sans-serif;
 }
 
-/*.small-circle {*/
-/*	height: 18px;*/
-/*	width: 18px;*/
-/*}*/
-
+.card {
+	margin: 50px 50px 50px 0;
+}
+.card-container-2 {
+	margin-left: 14px;
+}
 .btn {
 	background: blue;
 	height: 18px;

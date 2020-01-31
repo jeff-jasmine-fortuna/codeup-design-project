@@ -16,6 +16,7 @@
 
 .circle {
 	font-family: 'Anton', sans-serif;
+	color: white;
 	border: 10px white solid;
 	/*line-height: 20px;*/
 	height: 105px;
@@ -80,12 +81,14 @@
 }
 
 #selected-work {
-	margin-left: 190px;
+	margin-left: 100px;
 }
 
 
-.badge {
-	background-color: #00ABA9;
+.smcircle {
+	font-family: 'Anton', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -95,3 +98,17 @@
 	font-size: 12px;
 }
 
+#smd1 {
+	background-color: #E6563B;
+}
+#smd2 {
+	background-color: #EB9D3A;
+}
+
+#sms {
+	background-color: #7CB06C;
+}
+
+#smh {
+	background-color: #00ABA9;
+}

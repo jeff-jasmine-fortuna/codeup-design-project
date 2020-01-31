@@ -1,5 +1,5 @@
 .DS_Store
 .idea/*
 *.iml
-secret.html
-css/secret.css
+test.html
+css/test.css

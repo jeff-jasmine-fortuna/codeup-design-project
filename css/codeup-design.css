@@ -102,17 +102,17 @@
 	font-size: 12px;
 }
 
-#smd1 {
+.smd1 {
 	background-color: #E6563B;
 }
-#smd2 {
+.smd2 {
 	background-color: #EB9D3A;
 }
 
-#sms {
+.sms {
 	background-color: #7CB06C;
 }
 
-#smh {
+.smh {
 	background-color: #00ABA9;
 }
